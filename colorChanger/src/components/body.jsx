@@ -1,14 +1,14 @@
-import React from 'react'
-import Buttons from './colorButtons'
-import { useState } from 'react'
+import React from "react";
+import Buttons from "./colorButtons";
+import { useState } from "react";
 
 const Body = () => {
-  const [color, setColor] = useState('white');
+  const [color, setColor] = useState("white");
   return (
-    <div className='w-full h-screen duration-200' style={{background: color}} >
-      <Buttons colorSet = {setColor}/>
+    <div className="w-full h-screen duration-200" style={{ background: color }}>
+      <Buttons colorSet={setColor} />
     </div>
-  )
-}
+  );
+};
 
-export default Body
+export default Body;
